@@ -11,41 +11,49 @@
     width: 100%;
 }
 
-    .imagenPrincipal1 {
-        background-image: url(../img/oscar.jpg);
-        height: 90vh;
-        animation-name: prueba;
-            }
-    
-    
-    .imagenPrincipal2 {
-        background-image: url(../img/Exiitos2.jpg);
-        height: 90vh;
-                    }
-    
-    .imagenPrincipal3 {
-        background-image: url(../img/familia156925aaa.jpg);
-            height: 90vh;
-        }
-
     .btn-primary{
         background: rgb(31, 97, 75);
         border: 0;
     }
     
-    .prueba{
+    .bibliografia-animacion{
+        height: 230px;
+        width: 415px;
+        background:url(../img/oscarani.jpg);
+        animation-name: bibliografia;
+        animation-duration: 6s
+    }
+
+    @keyframes bibliografia{
+        0% {background: url(../img/images\ \(1\).jpg); left: 0; top: 0px;}
+        50%{background: url(../img/cxzczxczx.jpg); left: 300px; top: 200px;}
+        100% {background-image: url(../img/images.jpg);left: 300px; top: 300px }                    
+    }
+    .familia-animacion{
         height: 230px;
         width: 415px;
         background:url(../img/aaaaaaaaaaaa.jpg);
-        animation-name: una;
-        animation-duration: 5s
+        animation-name: familia;
+        animation-duration: 6s
+
     }
-
-    @keyframes una{
-        0% {background: url(../img/Exiitos2.jpg); left: 0; top: 0px;}
-        50%{background: url(../img/rose.jpeg); left: 300px; top: 200px;}
-        100% {background-image: url(../img/exitos2.jpg);left: 300px; top: 300px }                    
-
+    @keyframes familia {
+        0% {background: url(../img/descarga.jpg); left: 0; top: 0px;}
+        50%{background: url(../img/descarga\ \(3\).jpg); left: 300px; top: 200px;}
+        100% {background-image: url(../img/EKXK7YISZZBX5AESHMCPOGF3AQ\ \(1\).jpg);left: 300px; top: 300px }   
+    }
+    .exitos-animacion{
+        height: 230px;
+        width: 415px;
+        background:url(../img/Exiitos2.jpg);
+        animation-name: exitos;
+        animation-duration: 6s
+    }
+    @keyframes exitos{
+        0% {background: url(../img/Exiitos12.jpg); left: 0; top: 0px;}
+        50%{background: url(../img/images11.jpg); left: 300px; top: 200px;}
+        100% {background-image: url(../img/will\ smith\ especial\ warner\ channel.jpg);left: 300px; top: 300px }   
+    }
 
 
 
