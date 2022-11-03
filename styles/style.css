@@ -38,7 +38,7 @@
 
     }
     @keyframes familia {
-        0% {background: url(../img/descarga.jpg); left: 0; top: 0px;}
+                0% {background: url(../img/descarga.jpg); left: 0; top: 0px;}
         50%{background: url(../img/descarga\ \(3\).jpg); left: 300px; top: 200px;}
         100% {background-image: url(../img/EKXK7YISZZBX5AESHMCPOGF3AQ\ \(1\).jpg);left: 300px; top: 300px }   
     }
@@ -48,6 +48,7 @@
         background:url(../img/Exiitos2.jpg);
         animation-name: exitos;
         animation-duration: 6s
+        
     }
     @keyframes exitos{
         0% {background: url(../img/Exiitos12.jpg); left: 0; top: 0px;}
